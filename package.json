@@ -1,0 +1,25 @@
+{
+  "name": "bhd-anticaptcha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-dependency anticaptcha.top CLI and multi-agent skill for solving captchas",
+  "type": "module",
+  "bin": {
+    "bhd-anticaptcha": "scripts/anticaptcha.mjs"
+  },
+  "scripts": {
+    "test": "node tests/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "captcha",
+    "anticaptcha",
+    "recaptcha",
+    "hcaptcha",
+    "turnstile",
+    "agent-skill"
+  ],
+  "license": "MIT"
+}

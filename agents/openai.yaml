@@ -1,0 +1,4 @@
+interface:
+  display_name: "AntiCaptcha.top Solver"
+  short_description: "Solve reCAPTCHA, hCaptcha, Turnstile, GeeTest, Funcaptcha, image/audio captchas"
+  default_prompt: "Use $bhd-anticaptcha to solve the captcha blocking this task and return the token or cookie."
