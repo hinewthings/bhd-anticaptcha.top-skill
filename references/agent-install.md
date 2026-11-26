@@ -16,7 +16,7 @@ git clone https://github.com/hinewthings/bhd-anticaptcha.top-skill.git ~/.agents
 git clone https://github.com/hinewthings/bhd-anticaptcha.top-skill.git "$env:USERPROFILE\.agents\skills\bhd-anticaptcha"
 ```
 
-This single location is read by Codex, Oh My Pi, DeepSeek Harness, and Antigravity workspaces (when the repository is opened as a workspace).
+This single location is read by Codex, DeepSeek Harness, and Antigravity workspaces. Oh My Pi also reads `.agents/skills` when its `agents` provider is enabled, and the installer additionally writes OMP's native path when `~/.omp` exists.
 
 ### Automatic installer
 

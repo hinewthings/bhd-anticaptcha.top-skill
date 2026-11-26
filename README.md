@@ -16,7 +16,7 @@ Tài liệu gốc API: <https://docs2.anticaptcha.top/> · [`llms.txt`](https://
 
 ### Cách A — clone trực tiếp vào thư mục skill chung (khuyên dùng)
 
-Đường dẫn `~/.agents/skills` được Codex, Oh My Pi, DSH, Antigravity (workspace) và nhiều agent khác đọc.
+Đường dẫn `~/.agents/skills` được Codex, DSH, Antigravity (workspace) và nhiều agent khác đọc; OMP còn có đường dẫn native `~/.omp/agent/skills` (installer tự xử lý).
 
 **PowerShell (Windows):**
 
